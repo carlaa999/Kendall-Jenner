@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kendall Jenner - Proyecto Web</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),
+    url("kendall 1.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.3rem;
+}
+
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.5rem;
+    color:#d4af37;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about-text{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:25px;
+    border-left:5px solid #d4af37;
+    border-radius:10px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.stat{
+    background:#1e1e1e;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+}
+
+.stat h3{
+    font-size:2rem;
+    color:#d4af37;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#000;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>Kendall Jenner</h1>
+<p>Modelo internacional • Empresaria • Icono de la moda</p>
+</div>
+</header>
+
+<section>
+<h2>Biografía</h2>
+
+<div class="about">
+<img src="kendall 2.jpg" alt="Kendall Jenner">
+
+<div class="about-text">
+<p>
+Kendall Jenner es una de las modelos más reconocidas del mundo.
+Comenzó su carrera en la moda siendo muy joven y ha trabajado para
+algunas de las marcas más prestigiosas de la industria.
+</p>
+
+<br>
+
+<p>
+Además de desfilar en las principales pasarelas internacionales,
+también ha desarrollado proyectos empresariales y colaboraciones con
+marcas de lujo.
+</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Galería</h2>
+
+<div class="gallery">
+<img src="kendall 4.jpg" alt="Kendall Jenner">
+<img src="kendall 5.jpg" alt="Kendall Jenner">
+<img src="kendall 6.jpg" alt="Kendall Jenner">
+<img src="kendall 3.jpg" alt="Kendall Jenner">
+</div>
+</section>
+
+<section>
+<h2>Trayectoria</h2>
+
+<div class="timeline">
+
+<div class="card">
+<h3>2014</h3>
+<p>Comienza a desfilar para importantes firmas de moda.</p>
+</div>
+
+<div class="card">
+<h3>2016</h3>
+<p>Se convierte en una de las modelos más solicitadas del mundo.</p>
+</div>
+
+<div class="card">
+<h3>2018</h3>
+<p>Participa en campañas internacionales de lujo.</p>
+</div>
+
+<div class="card">
+<h3>2024</h3>
+<p>Continúa siendo una figura destacada en la industria de la moda.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Datos Destacados</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>+290M</h3>
+<p>Seguidores en redes sociales</p>
+</div>
+
+<div class="stat">
+<h3>10+</h3>
+<p>Años de carrera profesional</p>
+</div>
+
+<div class="stat">
+<h3>100+</h3>
+<p>Campañas internacionales</p>
+</div>
+
+<div class="stat">
+<h3>Global</h3>
+<p>Reconocimiento mundial</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>Proyecto Web - Kendall Jenner © 2026</p>
+</footer>
+
+</body>
+</html>
